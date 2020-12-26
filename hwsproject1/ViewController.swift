@@ -12,6 +12,7 @@ class ViewController: UITableViewController {
        var pictures = [String]() //That pictures array will be created when the ViewController screen is created, and exist for as long as the screen exists.
        var prefix = "DD-"
        var suffix = ".jpg"
+        let fontSize = UIFont.systemFont(ofSize: 24.0)
     
        override func viewDidLoad() {
            super.viewDidLoad()
@@ -29,11 +30,17 @@ class ViewController: UITableViewController {
            }
            print(pictures)
        }
-    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+       // #warning Potentially incomplete method implementation.
+       // Return the number of sections.
+       return 1
+   }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let countOfRows = pictures.count
         //method that sets how many rows should appear in the table
         //tableView is the name that we can use to reference the table view inside the method, and UITableView is the data type
-        return pictures.count
+        print(countOfRows)
+        return countOfRows
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -49,6 +56,7 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = pictureName
         cell.accessibilityIdentifier = pictureName
         cell.accessibilityLabel = pictureName
+        cell.textLabel?.font = fontSize
         return cell
     }
     
