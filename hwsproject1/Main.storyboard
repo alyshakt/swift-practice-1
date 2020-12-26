@@ -54,7 +54,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DFY-ZY-etm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DFY-ZY-etm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES" playsSound="YES"/>
@@ -64,10 +64,10 @@
                         <viewLayoutGuide key="safeArea" id="4G7-aM-7E4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="DFY-ZY-etm" firstAttribute="centerY" secondItem="sHw-D4-sxE" secondAttribute="centerY" id="Es4-cF-f5w"/>
-                            <constraint firstItem="DFY-ZY-etm" firstAttribute="top" secondItem="4G7-aM-7E4" secondAttribute="top" constant="-44" id="NfA-lQ-WJ4"/>
-                            <constraint firstItem="DFY-ZY-etm" firstAttribute="leading" secondItem="4G7-aM-7E4" secondAttribute="leading" id="SxT-QE-n2W"/>
-                            <constraint firstItem="DFY-ZY-etm" firstAttribute="centerX" secondItem="sHw-D4-sxE" secondAttribute="centerX" id="aiL-b0-Id5"/>
+                            <constraint firstItem="DFY-ZY-etm" firstAttribute="centerY" secondItem="sHw-D4-sxE" secondAttribute="centerY" id="gnp-Do-ZsE"/>
+                            <constraint firstItem="DFY-ZY-etm" firstAttribute="leading" secondItem="4G7-aM-7E4" secondAttribute="leading" id="pGi-V8-vYm"/>
+                            <constraint firstItem="DFY-ZY-etm" firstAttribute="top" secondItem="sHw-D4-sxE" secondAttribute="topMargin" constant="-44" id="uuU-cS-pMR"/>
+                            <constraint firstItem="DFY-ZY-etm" firstAttribute="centerX" secondItem="sHw-D4-sxE" secondAttribute="centerX" id="wdf-0X-adT"/>
                         </constraints>
                     </view>
                     <connections>
