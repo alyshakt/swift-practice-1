@@ -19,6 +19,19 @@
 		D32CF63A2597C3420039A06D /* DD-Becca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6352597C3410039A06D /* DD-Becca.jpg */; };
 		D32CF63B2597C3420039A06D /* DD-Lana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6362597C3410039A06D /* DD-Lana.jpg */; };
 		D32CF63C2597C3420039A06D /* DD-Sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6372597C3420039A06D /* DD-Sam.jpg */; };
+		D32CF64F2597D3260039A06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF63F2597D3260039A06D /* ViewController.swift */; };
+		D32CF6502597D3260039A06D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF6402597D3260039A06D /* DetailViewController.swift */; };
+		D32CF6512597D3260039A06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6412597D3260039A06D /* Assets.xcassets */; };
+		D32CF6522597D3260039A06D /* DD-Oksana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6432597D3260039A06D /* DD-Oksana.jpg */; };
+		D32CF6532597D3260039A06D /* DD-Sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6442597D3260039A06D /* DD-Sam.jpg */; };
+		D32CF6542597D3260039A06D /* DD-Jess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6452597D3260039A06D /* DD-Jess.jpg */; };
+		D32CF6552597D3260039A06D /* DD-Lana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6462597D3260039A06D /* DD-Lana.jpg */; };
+		D32CF6562597D3260039A06D /* DD-Becca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6472597D3260039A06D /* DD-Becca.jpg */; };
+		D32CF6572597D3260039A06D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6482597D3260039A06D /* LaunchScreen.storyboard */; };
+		D32CF6582597D3260039A06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32CF64A2597D3260039A06D /* Main.storyboard */; };
+		D32CF6592597D3260039A06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF64C2597D3260039A06D /* AppDelegate.swift */; };
+		D32CF65A2597D3260039A06D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D32CF64D2597D3260039A06D /* Info.plist */; };
+		D32CF65B2597D3260039A06D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF64E2597D3260039A06D /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +49,19 @@
 		D32CF6352597C3410039A06D /* DD-Becca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Becca.jpg"; sourceTree = "<group>"; };
 		D32CF6362597C3410039A06D /* DD-Lana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Lana.jpg"; sourceTree = "<group>"; };
 		D32CF6372597C3420039A06D /* DD-Sam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Sam.jpg"; sourceTree = "<group>"; };
+		D32CF63F2597D3260039A06D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D32CF6402597D3260039A06D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D32CF6412597D3260039A06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32CF6432597D3260039A06D /* DD-Oksana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Oksana.jpg"; sourceTree = "<group>"; };
+		D32CF6442597D3260039A06D /* DD-Sam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Sam.jpg"; sourceTree = "<group>"; };
+		D32CF6452597D3260039A06D /* DD-Jess.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Jess.jpg"; sourceTree = "<group>"; };
+		D32CF6462597D3260039A06D /* DD-Lana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Lana.jpg"; sourceTree = "<group>"; };
+		D32CF6472597D3260039A06D /* DD-Becca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Becca.jpg"; sourceTree = "<group>"; };
+		D32CF6492597D3260039A06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32CF64B2597D3260039A06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32CF64C2597D3260039A06D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32CF64D2597D3260039A06D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32CF64E2597D3260039A06D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +94,7 @@
 		D32CF5FB2597B1480039A06D /* hwsproject1 */ = {
 			isa = PBXGroup;
 			children = (
+				D32CF63E2597D3260039A06D /* hwsproject1 */,
 				D32CF5FC2597B1480039A06D /* AppDelegate.swift */,
 				D32CF5FE2597B1480039A06D /* SceneDelegate.swift */,
 				D32CF6002597B1480039A06D /* ViewController.swift */,
@@ -89,6 +116,34 @@
 				D32CF6362597C3410039A06D /* DD-Lana.jpg */,
 				D32CF6342597C3410039A06D /* DD-Oksana.jpg */,
 				D32CF6372597C3420039A06D /* DD-Sam.jpg */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		D32CF63E2597D3260039A06D /* hwsproject1 */ = {
+			isa = PBXGroup;
+			children = (
+				D32CF63F2597D3260039A06D /* ViewController.swift */,
+				D32CF6402597D3260039A06D /* DetailViewController.swift */,
+				D32CF6412597D3260039A06D /* Assets.xcassets */,
+				D32CF6422597D3260039A06D /* Content */,
+				D32CF6482597D3260039A06D /* LaunchScreen.storyboard */,
+				D32CF64A2597D3260039A06D /* Main.storyboard */,
+				D32CF64C2597D3260039A06D /* AppDelegate.swift */,
+				D32CF64D2597D3260039A06D /* Info.plist */,
+				D32CF64E2597D3260039A06D /* SceneDelegate.swift */,
+			);
+			name = hwsproject1;
+			sourceTree = "<group>";
+		};
+		D32CF6422597D3260039A06D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				D32CF6432597D3260039A06D /* DD-Oksana.jpg */,
+				D32CF6442597D3260039A06D /* DD-Sam.jpg */,
+				D32CF6452597D3260039A06D /* DD-Jess.jpg */,
+				D32CF6462597D3260039A06D /* DD-Lana.jpg */,
+				D32CF6472597D3260039A06D /* DD-Becca.jpg */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -152,11 +207,20 @@
 			files = (
 				D32CF63B2597C3420039A06D /* DD-Lana.jpg in Resources */,
 				D32CF63A2597C3420039A06D /* DD-Becca.jpg in Resources */,
+				D32CF6562597D3260039A06D /* DD-Becca.jpg in Resources */,
+				D32CF6572597D3260039A06D /* LaunchScreen.storyboard in Resources */,
+				D32CF6532597D3260039A06D /* DD-Sam.jpg in Resources */,
 				D32CF6382597C3420039A06D /* DD-Jess.jpg in Resources */,
 				D32CF6092597B14A0039A06D /* LaunchScreen.storyboard in Resources */,
 				D32CF6062597B14A0039A06D /* Assets.xcassets in Resources */,
 				D32CF6392597C3420039A06D /* DD-Oksana.jpg in Resources */,
 				D32CF6042597B1480039A06D /* Main.storyboard in Resources */,
+				D32CF65A2597D3260039A06D /* Info.plist in Resources */,
+				D32CF6552597D3260039A06D /* DD-Lana.jpg in Resources */,
+				D32CF6582597D3260039A06D /* Main.storyboard in Resources */,
+				D32CF6542597D3260039A06D /* DD-Jess.jpg in Resources */,
+				D32CF6512597D3260039A06D /* Assets.xcassets in Resources */,
+				D32CF6522597D3260039A06D /* DD-Oksana.jpg in Resources */,
 				D32CF63C2597C3420039A06D /* DD-Sam.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,10 +232,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32CF64F2597D3260039A06D /* ViewController.swift in Sources */,
 				D32CF6012597B1480039A06D /* ViewController.swift in Sources */,
 				D32CF5FD2597B1480039A06D /* AppDelegate.swift in Sources */,
+				D32CF6502597D3260039A06D /* DetailViewController.swift in Sources */,
+				D32CF6592597D3260039A06D /* AppDelegate.swift in Sources */,
 				D32CF5FF2597B1480039A06D /* SceneDelegate.swift in Sources */,
 				D32CF6302597BCB90039A06D /* DetailViewController.swift in Sources */,
+				D32CF65B2597D3260039A06D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +260,22 @@
 				D32CF6082597B14A0039A06D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D32CF6482597D3260039A06D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32CF6492597D3260039A06D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D32CF64A2597D3260039A06D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32CF64B2597D3260039A06D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
