@@ -10,15 +10,14 @@
 		D32CF5FD2597B1480039A06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF5FC2597B1480039A06D /* AppDelegate.swift */; };
 		D32CF5FF2597B1480039A06D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF5FE2597B1480039A06D /* SceneDelegate.swift */; };
 		D32CF6012597B1480039A06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF6002597B1480039A06D /* ViewController.swift */; };
-		D32CF6042597B1480039A06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6022597B1480039A06D /* Main.storyboard */; };
 		D32CF6062597B14A0039A06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6052597B14A0039A06D /* Assets.xcassets */; };
-		D32CF6092597B14A0039A06D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6072597B14A0039A06D /* LaunchScreen.storyboard */; };
 		D32CF6302597BCB90039A06D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF62F2597BCB90039A06D /* DetailViewController.swift */; };
 		D32CF6382597C3420039A06D /* DD-Jess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6332597C3410039A06D /* DD-Jess.jpg */; };
 		D32CF6392597C3420039A06D /* DD-Oksana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6342597C3410039A06D /* DD-Oksana.jpg */; };
 		D32CF63A2597C3420039A06D /* DD-Becca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6352597C3410039A06D /* DD-Becca.jpg */; };
 		D32CF63B2597C3420039A06D /* DD-Lana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6362597C3410039A06D /* DD-Lana.jpg */; };
 		D32CF63C2597C3420039A06D /* DD-Sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6372597C3420039A06D /* DD-Sam.jpg */; };
+		D32CF6602597D5330039A06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32CF65F2597D5330039A06D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +25,7 @@
 		D32CF5FC2597B1480039A06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D32CF5FE2597B1480039A06D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D32CF6002597B1480039A06D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D32CF6032597B1480039A06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D32CF6052597B14A0039A06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D32CF6082597B14A0039A06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32CF60A2597B14A0039A06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32CF62F2597BCB90039A06D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D32CF6332597C3410039A06D /* DD-Jess.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Jess.jpg"; sourceTree = "<group>"; };
@@ -36,6 +33,7 @@
 		D32CF6352597C3410039A06D /* DD-Becca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Becca.jpg"; sourceTree = "<group>"; };
 		D32CF6362597C3410039A06D /* DD-Lana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Lana.jpg"; sourceTree = "<group>"; };
 		D32CF6372597C3420039A06D /* DD-Sam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Sam.jpg"; sourceTree = "<group>"; };
+		D32CF65F2597D5330039A06D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +69,11 @@
 				D32CF5FC2597B1480039A06D /* AppDelegate.swift */,
 				D32CF5FE2597B1480039A06D /* SceneDelegate.swift */,
 				D32CF6002597B1480039A06D /* ViewController.swift */,
-				D32CF6022597B1480039A06D /* Main.storyboard */,
+				D32CF65F2597D5330039A06D /* Main.storyboard */,
 				D32CF62F2597BCB90039A06D /* DetailViewController.swift */,
 				D32CF6052597B14A0039A06D /* Assets.xcassets */,
-				D32CF6072597B14A0039A06D /* LaunchScreen.storyboard */,
 				D32CF60A2597B14A0039A06D /* Info.plist */,
+				D32CF6632597D5510039A06D /* Base.lproj */,
 				D32CF6112597B1620039A06D /* Content */,
 			);
 			path = hwsproject1;
@@ -91,6 +89,13 @@
 				D32CF6372597C3420039A06D /* DD-Sam.jpg */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		D32CF6632597D5510039A06D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,10 +158,9 @@
 				D32CF63B2597C3420039A06D /* DD-Lana.jpg in Resources */,
 				D32CF63A2597C3420039A06D /* DD-Becca.jpg in Resources */,
 				D32CF6382597C3420039A06D /* DD-Jess.jpg in Resources */,
-				D32CF6092597B14A0039A06D /* LaunchScreen.storyboard in Resources */,
 				D32CF6062597B14A0039A06D /* Assets.xcassets in Resources */,
 				D32CF6392597C3420039A06D /* DD-Oksana.jpg in Resources */,
-				D32CF6042597B1480039A06D /* Main.storyboard in Resources */,
+				D32CF6602597D5330039A06D /* Main.storyboard in Resources */,
 				D32CF63C2597C3420039A06D /* DD-Sam.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,25 +180,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D32CF6022597B1480039A06D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D32CF6032597B1480039A06D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D32CF6072597B14A0039A06D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D32CF6082597B14A0039A06D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D32CF60B2597B14A0039A06D /* Debug */ = {
