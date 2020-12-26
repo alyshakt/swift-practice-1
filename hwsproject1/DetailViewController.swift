@@ -10,6 +10,8 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView! //Property linked by Editor Assistant
+    @IBOutlet var imageLabel: UILabel!
+    
     var selectedImage: String?
     var prefix = "DD-"
     var suffix = ".jpg"
@@ -28,9 +30,7 @@ class DetailViewController: UIViewController {
         if let imageToLoad = selectedImage {
             //If for some reason selectedImage is nil (which it should never be, in theory) then the imageView.image line will never be executed. If it has a value, it will be placed into imageToLoad, then passed to UIImage and loaded.
             imageView.image  = UIImage(named: imageToLoad)
-        }
-        else{
-            imageView.image  = UIImage(named: "Error")
+            imageLabel.text = getPictureInfo(pictureName: pictureName!)
         }
     }
     
@@ -42,5 +42,25 @@ class DetailViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.hidesBarsOnTap = false
+    }
+    
+    func getPictureInfo(pictureName: String) -> String{
+        var returnText = "oopsie"
+        if pictureName.lowercased().contains("oksana"){
+            returnText = "Oksana is a rad lady!"
+        }
+        else if( pictureName.lowercased().contains("sam")){
+            returnText = "Sam is a rad lady!"
+        }
+        else if( pictureName.lowercased().contains("jess")){
+            returnText = "Jess is a rad lady!"
+        }
+        else if( pictureName.lowercased().contains("lana")){
+            returnText = "Lana is a rad lady!"
+        }
+        else if( pictureName.lowercased().contains("becca")){
+            returnText = "Becca is a rad lady!"
+        }
+        return returnText
     }
 }

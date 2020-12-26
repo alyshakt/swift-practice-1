@@ -56,7 +56,6 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = pictureName
         cell.accessibilityIdentifier = pictureName
         cell.accessibilityLabel = pictureName
-        cell.textLabel?.font = fontSize
         return cell
     }
     
