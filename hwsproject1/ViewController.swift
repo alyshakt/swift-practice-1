@@ -7,10 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
     //To create a property, you need to declare it outside of methods
        var pictures = [String]() //That pictures array will be created when the ViewController screen is created, and exist for as long as the screen exists.
-       var prefix = "nssl"
+       var prefix = "DD-"
+       var suffix = ".jpg"
     
        override func viewDidLoad() {
            super.viewDidLoad()
@@ -26,6 +27,42 @@ class ViewController: UIViewController {
            }
            print(pictures)
        }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //method that sets how many rows should appear in the table
+        //tableView is the name that we can use to reference the table view inside the method, and UITableView is the data type
+        return pictures.count
+    }
 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //indexPath This is a data type that contains both a section number and a row number.
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath) //That creates a new constant called cell by dequeuing a recycled cell from the table
+        let cellLabel = pictures[indexPath.row]
+        return assignCellAccessibility(cell: cell, label: cellLabel)
+    }
+    
+    func assignCellAccessibility(cell: UITableViewCell, label: String)->UITableViewCell{
+        //Function to assign text lable and accessibility to each cell
+        let pictureName = label.description.replacingOccurrences(of: prefix, with: "").replacingOccurrences(of: suffix, with: "")
+        cell.textLabel?.text = pictureName
+        cell.accessibilityIdentifier = pictureName
+        cell.accessibilityLabel = pictureName
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // 1: try loading the "Detail" view controller and typecasting it to be DetailViewController
+        //if storyboard, ID or DetailViewController returns nil (i.e., they fail), then the code inside the following if let braces won’t execute.
+        //TODO Handle a failure.
+        if let vController = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
+            // 2: success! Set its selectedImage property
+            vController.selectedImage = pictures[indexPath.row]
+            // 3: now push it onto the navigation controller
+            navigationController?.pushViewController(vController, animated: true)
+        }
+        else{
+            print("Oh no! There was an error.")
+        }
+    }
 }
 
