@@ -27,6 +27,7 @@ class ViewController: UITableViewController {
                    pictureList.append(item)
                }
            }
+        pictureList.sort()
        }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,14 +40,10 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //indexPath This is a data type that contains both a section number and a row number.
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath) //That creates a new constant called cell by dequeuing a recycled cell from the table
-        let sortedArray = sortPictures(pictureList:pictureList)
-        let cellLabel = sortedArray[indexPath.row]
+        let cellLabel = pictureList[indexPath.row]
         return assignCellAccessibility(cell: cell, label: cellLabel)
     }
     
-    func sortPictures(pictureList: [String])-> [String]{
-        return pictureList.sorted()
-    }
     
     func assignCellAccessibility(cell: UITableViewCell, label: String)->UITableViewCell{
         //Function to assign text lable and accessibility to each cell
@@ -58,14 +55,9 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // 1: try loading the "Detail" view controller and typecasting it to be DetailViewController
-        //if storyboard, ID or DetailViewController returns nil (i.e., they fail), then the code inside the following if let braces won’t execute.
-        //TODO Handle a failure.
-        let sortedArray = sortPictures(pictureList:pictureList)
- 
         if let vController = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             // 2: success! Set its selectedImage property
-            vController.selectedImage = sortedArray[indexPath.row]
+            vController.selectedImage = pictureList[indexPath.row]
             // 3: now push it onto the navigation controller
             navigationController?.pushViewController(vController, animated: true)
         }
