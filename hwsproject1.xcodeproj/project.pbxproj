@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3082C6E2598144000C4AE66 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3082C6D2598144000C4AE66 /* LaunchViewController.swift */; };
 		D32CF5FD2597B1480039A06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF5FC2597B1480039A06D /* AppDelegate.swift */; };
 		D32CF5FF2597B1480039A06D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF5FE2597B1480039A06D /* SceneDelegate.swift */; };
 		D32CF6012597B1480039A06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF6002597B1480039A06D /* ViewController.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D3082C6D2598144000C4AE66 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		D32CF5F92597B1480039A06D /* hwsproject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hwsproject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32CF5FC2597B1480039A06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D32CF5FE2597B1480039A06D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 				D32CF60A2597B14A0039A06D /* Info.plist */,
 				D32CF6632597D5510039A06D /* Base.lproj */,
 				D32CF6112597B1620039A06D /* Content */,
-				D3082C6D2598144000C4AE66 /* LaunchViewController.swift */,
 			);
 			path = hwsproject1;
 			sourceTree = "<group>";
@@ -176,7 +173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32CF6012597B1480039A06D /* ViewController.swift in Sources */,
-				D3082C6E2598144000C4AE66 /* LaunchViewController.swift in Sources */,
 				D32CF5FD2597B1480039A06D /* AppDelegate.swift in Sources */,
 				D32CF5FF2597B1480039A06D /* SceneDelegate.swift in Sources */,
 				D32CF6302597BCB90039A06D /* DetailViewController.swift in Sources */,
