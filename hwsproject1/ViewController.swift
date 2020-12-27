@@ -9,10 +9,10 @@ import UIKit
 
 class ViewController: UITableViewController {
     //To create a property, you need to declare it outside of methods
-    var pictures = [String]() //That pictures array will be created when the ViewController screen is created, and exist for as long as the screen exists.
-       var prefix = "DD-"
-       var suffix = ".jpg"
-        let fontSize = UIFont.systemFont(ofSize: 24.0)
+    var pictureList = [String]() //That pictures array will be created when the ViewController screen is created, and exist for as long as the screen exists.
+    var prefix = "DD-"
+    var suffix = ".jpg"
+    let fontSize = UIFont.systemFont(ofSize: 24.0)
     
        override func viewDidLoad() {
            super.viewDidLoad()
@@ -24,31 +24,28 @@ class ViewController: UITableViewController {
            for item in items{ //starts a loop that will execute once for every item we found in the app bundle.
                if item.hasPrefix(prefix){
                    //What we really want is to add to the pictures array all the files we match inside our loop.
-                   pictures.append(item)
+                   pictureList.append(item)
                }
            }
        }
-    
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-       // #warning Potentially incomplete method implementation.
-       // Return the number of sections.
-       return 1
-   }
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let countOfRows = pictures.count
+        let countOfRows = pictureList.count
         //method that sets how many rows should appear in the table
         //tableView is the name that we can use to reference the table view inside the method, and UITableView is the data type
-        print(countOfRows)
         return countOfRows
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //indexPath This is a data type that contains both a section number and a row number.
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath) //That creates a new constant called cell by dequeuing a recycled cell from the table
-        let sortedArray = pictures.sorted()
-        print(sortedArray)
+        let sortedArray = sortPictures(pictureList:pictureList)
         let cellLabel = sortedArray[indexPath.row]
         return assignCellAccessibility(cell: cell, label: cellLabel)
+    }
+    
+    func sortPictures(pictureList: [String])-> [String]{
+        return pictureList.sorted()
     }
     
     func assignCellAccessibility(cell: UITableViewCell, label: String)->UITableViewCell{
@@ -64,9 +61,11 @@ class ViewController: UITableViewController {
         // 1: try loading the "Detail" view controller and typecasting it to be DetailViewController
         //if storyboard, ID or DetailViewController returns nil (i.e., they fail), then the code inside the following if let braces won’t execute.
         //TODO Handle a failure.
+        let sortedArray = sortPictures(pictureList:pictureList)
+ 
         if let vController = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             // 2: success! Set its selectedImage property
-            vController.selectedImage = pictures[indexPath.row]
+            vController.selectedImage = sortedArray[indexPath.row]
             // 3: now push it onto the navigation controller
             navigationController?.pushViewController(vController, animated: true)
         }
