@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31F331B2598F7190026358D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31F331A2598F7190026358D /* LaunchScreen.storyboard */; };
 		D32CF5FD2597B1480039A06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF5FC2597B1480039A06D /* AppDelegate.swift */; };
 		D32CF5FF2597B1480039A06D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF5FE2597B1480039A06D /* SceneDelegate.swift */; };
 		D32CF6012597B1480039A06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32CF6002597B1480039A06D /* ViewController.swift */; };
@@ -18,9 +19,13 @@
 		D32CF63B2597C3420039A06D /* DD-Lana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6362597C3410039A06D /* DD-Lana.jpg */; };
 		D32CF63C2597C3420039A06D /* DD-Sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32CF6372597C3420039A06D /* DD-Sam.jpg */; };
 		D32CF6602597D5330039A06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32CF65F2597D5330039A06D /* Main.storyboard */; };
+		D3CEB18E2599354300FB5841 /* DD-Brianna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CEB18D2599354300FB5841 /* DD-Brianna.jpg */; };
+		D3CEB19225993B2400FB5841 /* DD-Dornn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CEB19125993B2400FB5841 /* DD-Dornn.jpg */; };
+		D3CEB19525993DC700FB5841 /* DD-Alysha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CEB19425993DC700FB5841 /* DD-Alysha.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D31F331A2598F7190026358D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32CF5F92597B1480039A06D /* hwsproject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hwsproject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32CF5FC2597B1480039A06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D32CF5FE2597B1480039A06D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,9 @@
 		D32CF6362597C3410039A06D /* DD-Lana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Lana.jpg"; sourceTree = "<group>"; };
 		D32CF6372597C3420039A06D /* DD-Sam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Sam.jpg"; sourceTree = "<group>"; };
 		D32CF65F2597D5330039A06D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D3CEB18D2599354300FB5841 /* DD-Brianna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Brianna.jpg"; sourceTree = "<group>"; };
+		D3CEB19125993B2400FB5841 /* DD-Dornn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Dornn.jpg"; sourceTree = "<group>"; };
+		D3CEB19425993DC700FB5841 /* DD-Alysha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DD-Alysha.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +81,8 @@
 				D32CF62F2597BCB90039A06D /* DetailViewController.swift */,
 				D32CF6052597B14A0039A06D /* Assets.xcassets */,
 				D32CF60A2597B14A0039A06D /* Info.plist */,
-				D32CF6632597D5510039A06D /* Base.lproj */,
 				D32CF6112597B1620039A06D /* Content */,
+				D31F331A2598F7190026358D /* LaunchScreen.storyboard */,
 			);
 			path = hwsproject1;
 			sourceTree = "<group>";
@@ -82,6 +90,9 @@
 		D32CF6112597B1620039A06D /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				D3CEB19125993B2400FB5841 /* DD-Dornn.jpg */,
+				D3CEB18D2599354300FB5841 /* DD-Brianna.jpg */,
+				D3CEB19425993DC700FB5841 /* DD-Alysha.jpg */,
 				D32CF6352597C3410039A06D /* DD-Becca.jpg */,
 				D32CF6332597C3410039A06D /* DD-Jess.jpg */,
 				D32CF6362597C3410039A06D /* DD-Lana.jpg */,
@@ -89,13 +100,6 @@
 				D32CF6372597C3420039A06D /* DD-Sam.jpg */,
 			);
 			path = Content;
-			sourceTree = "<group>";
-		};
-		D32CF6632597D5510039A06D /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,13 +159,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31F331B2598F7190026358D /* LaunchScreen.storyboard in Resources */,
 				D32CF63B2597C3420039A06D /* DD-Lana.jpg in Resources */,
 				D32CF63A2597C3420039A06D /* DD-Becca.jpg in Resources */,
+				D3CEB18E2599354300FB5841 /* DD-Brianna.jpg in Resources */,
 				D32CF6382597C3420039A06D /* DD-Jess.jpg in Resources */,
 				D32CF6062597B14A0039A06D /* Assets.xcassets in Resources */,
 				D32CF6392597C3420039A06D /* DD-Oksana.jpg in Resources */,
 				D32CF6602597D5330039A06D /* Main.storyboard in Resources */,
 				D32CF63C2597C3420039A06D /* DD-Sam.jpg in Resources */,
+				D3CEB19525993DC700FB5841 /* DD-Alysha.jpg in Resources */,
+				D3CEB19225993B2400FB5841 /* DD-Dornn.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -288,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alyshakt.hwsproject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 99QYR59SDR;
+				DEVELOPMENT_TEAM = KJX5NUX35A;
 				INFOPLIST_FILE = hwsproject1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -332,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alyshakt.hwsproject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
