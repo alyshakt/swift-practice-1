@@ -18,20 +18,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="5" shouldIndentWhileEditing="NO" reuseIdentifier="Picture" textLabel="zN3-3M-O8F" imageView="5PK-Eh-2jC" style="IBUITableViewCellStyleDefault" id="SXr-c5-IQB">
-                                <rect key="frame" x="20" y="55.5" width="374" height="44"/>
+                                <rect key="frame" x="20" y="55.5" width="374" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SXr-c5-IQB" id="shZ-6a-dyG">
-                                    <rect key="frame" x="0.0" y="0.0" width="343" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" text="Title" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zN3-3M-O8F">
-                                            <rect key="frame" x="59" y="0.0" width="276" height="44"/>
+                                            <rect key="frame" x="59" y="0.0" width="276" height="55"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                             <color key="highlightedColor" systemColor="systemPurpleColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5PK-Eh-2jC">
-                                            <rect key="frame" x="21" y="11.5" width="22" height="21.5"/>
+                                            <rect key="frame" x="21" y="17" width="22" height="21.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <imageReference key="image" image="person.fill" catalog="system" symbolScale="large"/>
                                         </imageView>

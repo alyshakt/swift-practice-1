@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  hwsproject1
+//  HWSProject
 //
 //  Created by Alysha Kester-Terry on 12/26/20.
 //
