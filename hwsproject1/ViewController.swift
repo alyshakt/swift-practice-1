@@ -49,7 +49,7 @@ class ViewController: UITableViewController {
         //Function to assign text lable and accessibility to each cell
         let pictureName = label.description.replacingOccurrences(of: prefix, with: "").replacingOccurrences(of: suffix, with: "")
         cell.textLabel?.text = pictureName
-        cell.accessibilityIdentifier = pictureName
+        cell.accessibilityIdentifier = "Picture"
         cell.accessibilityLabel = pictureName
         return cell
     }

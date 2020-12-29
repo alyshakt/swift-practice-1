@@ -42,6 +42,10 @@ class DetailViewController: UIViewController {
         bioMessage =  getMemberText(memberName: memberName!)
         phoneNumber =  getMemberPhone(memberName: memberName!)
         emailLink = getMemberEmail(memberName: memberName!)
+        imageView.accessibilityIdentifier = "Profile image"
+        bioMessage.accessibilityIdentifier = "Bio"
+        phoneNumber.accessibilityIdentifier = "Phone"
+        emailLink.accessibilityIdentifier = "Email"
     }
     
     override func viewWillAppear(_ animated: Bool) {
