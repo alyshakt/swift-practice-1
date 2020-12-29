@@ -38,10 +38,10 @@ class DetailViewController: UIViewController {
         if let imageToLoad = selectedImage {
             //If for some reason selectedImage is nil (which it should never be, in theory) then the imageView.image line will never be executed. If it has a value, it will be placed into imageToLoad, then passed to UIImage and loaded.
             imageView.image = UIImage(named: imageToLoad)
-            bioMessage =  getMemberText(memberName: memberName!)
-            phoneNumber =  getMemberPhone(memberName: memberName!)
-            emailLink = getMemberEmail(memberName: memberName!)
         }
+        bioMessage =  getMemberText(memberName: memberName!)
+        phoneNumber =  getMemberPhone(memberName: memberName!)
+        emailLink = getMemberEmail(memberName: memberName!)
     }
     
     override func viewWillAppear(_ animated: Bool) {
